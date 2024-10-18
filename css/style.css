@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif !important;
+    font-weight: 400;
+}
+.bg-img{ 
+    background-image: url('../img/body-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-link{
+    font-size: 24px;
+    color: #fff !important;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.btn-bg{
+    background-image: url('../img/btn-signup.webp');
+    width: 188px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none !important;
+    outline: none !important;
+}
+.btn-bg:active{
+background-color: transparent !important;
+}
+.slide1{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/hero-bg1.webp');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover; 
+    /* position: relative; */
+    margin-top: -103px;
+    z-index: -10;
+}
+.pt-130{
+    padding-top: 230px;
+    padding-bottom: 50px;
+}
+.btg h1{
+ font-size: 95px;
+ font-family: "Metal Mania", system-ui;
+ font-weight: 400;
+ color: #fff !important;
+ line-height: 98px;
+}
+.btg h3{
+    font-size: 25px; 
+    font-weight: 600;
+    color: #fff !important;
+    line-height: 30px;
+   }
+   .gaming-world{
+    padding: 70px;
+   }
+ .gaming-world h1{
+    font-size: 55px; 
+    font-weight: 600;
+    color: #fff !important;
+    line-height: 68px;
+    padding: 0px 240px;
+    text-align: center;
+ }
+ .gtw-card{
+    width:100%;
+    height: 460px; 
+    background-repeat: no-repeat;
+    text-align: center;
+ }
+ .card{
+    background-color: transparent !important;
+ }
+ .gtw-card img{
+    padding: 56px 0px;
+} 
+ .gtw-card h5{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+
+ }
+ .gtw-card p{
+    color: #fff;
+    /* font-size: 20px;  */
+    padding: 20px;
+
+ }
+ .play-btn{
+    margin-top: -350px !important;
+ }
+
+ 
+.testimonial{
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/testimonial-bg.webp');
+    background-size: cover;
+    /* margin: 50px 0px !important; */
+}
+.testimonial-desc{
+    padding: 100px 0px;
+}
+.testimonial-desc p{
+    color: #fff;
+    font-size: 22px;
+}
+   @media screen and (max-width:480px) {
+    .pt-130 {
+        padding-top: 100px !important;
+        padding-bottom: 50px;
+    }
+    .btg {
+        text-align: center;
+    }
+    .btg h1 {
+        font-size: 64px; 
+        line-height: 58px;
+    }
+    .slideimg{
+        padding: 30px;
+    }
+    .gaming-world h1 {
+        font-size: 31px;  
+        line-height: 36px;
+        padding: 0px !important; 
+    }
+    .play-btn{
+        margin-top:0px !important;
+     }
+   }
